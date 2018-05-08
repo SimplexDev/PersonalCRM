@@ -9,8 +9,8 @@ class CreateContacts < ActiveRecord::Migration[5.2]
       t.string :industry
       t.string :phone_number
       t.string :how_met
-      t.datetime :last_contacted
-      t.datetime :follow_up
+      t.date :last_contacted
+      t.date :follow_up
 
       t.timestamps
 

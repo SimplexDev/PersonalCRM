@@ -3,6 +3,10 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.4.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'carrierwave', '~> 1.0'
+gem 'fog'
+gem 'fog-aws'
+
 gem 'rails', '~> 5.2.0'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
@@ -20,6 +24,7 @@ gem 'uglifier', '>= 1.3.0'
 group :test do
   gem 'coveralls', require: false
 end
+
 gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
@@ -34,9 +39,10 @@ gem 'jbuilder', '~> 2.5'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'active_model_serializers'
 
 group :development, :test do
-
+  gem 'dotenv-rails'
 end
 
 group :development do

@@ -1,0 +1,48 @@
+<div class="row">
+  <div class="columns medium-8 medium-centered">
+
+    <h1 class="page-header">Add New Contact</h1>
+
+    <% if @errors %>
+      <div class="panel callout alert">
+        <ul>
+          <% @errors.each do |error|%>
+            <li><%= error %></li>
+          <% end %>
+        </ul>
+      </div>
+    <%end%>
+
+    <%= form_for(@contact, :html => { :class => 'form', :id => "new_contact_form" }) do |f|  %>
+      <div class="field">
+        <%= f.label :first_name, class: "label" %><br />
+        <%= f.text_field :first_name %>
+      </div>
+
+      <div class="field">
+        <%= f.label :last_name, class: "label" %><br />
+        <%= f.text_field :last_name %>
+      </div>
+
+      <div class="field">
+        <%= f.label :company, :class => "label" %><br />
+        <%= f.text_field :company %>
+      </div>
+
+      <div class="field">
+        <%= f.label :past_company, class: "label" %><br />
+        <%= f.file_field :past_company %>
+      </div>
+
+      <div class="field">
+        <%= f.label :industry, class: "label" %><br />
+        <%= f.text_field :industry %>
+      </div>
+
+      <div class="actions">
+        <%= f.submit "Add Contact", class: "button form-submit" %>
+      </div>
+    <% end %>
+
+  </div>
+<div>

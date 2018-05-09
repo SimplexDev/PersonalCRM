@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Router, browserHistory, Route, IndexRoute } from 'react-router';
-import ContactsIndexContainer from './containers/ContactsIndexContainer';
-import ContactsShowContainer from './containers/ContactsShowContainer';
+import ContactsIndexContainer from '../containers/ContactsIndexContainer';
+import ContactsShowContainer from '../containers/ContactsShowContainer';
 
 class Routes extends Component {
 
@@ -9,6 +9,7 @@ class Routes extends Component {
     super(props);
     this.state = {}
   }
+
 
   render() {
     return (

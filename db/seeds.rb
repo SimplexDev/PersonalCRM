@@ -14,7 +14,13 @@ contacts = [
   {first_name: "Derek", last_name: "Dubois", company: "Launch Lunch", industry: "IT", phone_number: "937-313- 4455", how_met: "Met Derek sailing the high seas of bermuda", user: user_2 },
   {first_name: "Jeffrey", last_name: "Unicorn", company: "Apple", industry: "Waste Management", phone_number: "666-333-1212", how_met: "Jeffrey and I met via Nick Alberts at a bonfire", user: user_3 },
   {first_name: "Matt", last_name: "Macks", company: "Swift", industry: "Utilities", phone_number: "666-333-1212", how_met: "Matt is thoroughly interested in developing his Swift Contacts", user: user_1 },
-  {first_name: "Dugan", last_name: "Boo", company: "North Sails", industry: "Goodreads", phone_number: "666-333-1212", how_met: "Dugan is a noted soccer player, father of none, and enjoys disc golf", user: user_1 },
+  {first_name: "Dugan", last_name: "Boo", company: "North Sails", industry: "Waste Management", phone_number: "666-333-1212", how_met: "Dugan is a noted soccer player, father of none, and enjoys disc golf", user: user_1 },
+  {first_name: "Larry", last_name: "Farnsworth", company: "South Sails", industry: "Information Technology", phone_number: "666-333-1212", how_met: "Dugan is a noted soccer player, father of none, and enjoys disc golf", user: user_1 },
+  {first_name: "Maikol", last_name: "Simpson", company: "Springfield Power", industry: "HVAC", phone_number: "666-333-1212", how_met: "Dugan is a noted soccer player, father of none, and enjoys disc golf", user: user_1 },
+  {first_name: "Greg", last_name: "Card", company: "Black Hat Electric", industry: "Pharmeceutical", phone_number: "666-333-1212", how_met: "Dugan is a noted soccer player, father of none, and enjoys disc golf", user: user_1 },
+  {first_name: "Jake", last_name: "Silvert-Noftle", company: "Midwest Utilities", industry: "Fashion", phone_number: "666-333-1212", how_met: "Dugan is a noted soccer player, father of none, and enjoys disc golf", user: user_1 },
+  {first_name: "Carol", last_name: "Bradtmiller", company: "South Sails", industry: "Fashion", phone_number: "666-333-1212", how_met: "Dugan is a noted soccer player, father of none, and enjoys disc golf", user: user_1 },
+  {first_name: "Samantha", last_name: "Vanaursdal", company: "South-By-Southwest Sails", industry: "Sailing", phone_number: "666-333-1212", how_met: "Dugan is a noted soccer player, father of none, and enjoys disc golf", user: user_1 },
 ]
 
 contacts.each do |item|

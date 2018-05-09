@@ -37,5 +37,5 @@ For testing:
 
 ## Acknowledgments:
 
-Thank you to all my mentors, instructors, and teammates at Launch Academy coding bootcamp!
+Thank you to all my mentors, instructors, and teammates at Launch Academy coding bootcamp, Boston, MA
 * [Launch Academy](https://www.launchacademy.com)

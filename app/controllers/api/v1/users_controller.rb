@@ -14,11 +14,4 @@ class Api::V1::UsersController < ApiController
       redirect_to root_path
     end
   end
-  # contacts for a given user
-  # def show
-  #   user = User.find(params[:id])
-  #   contacts = user.contacts
-  #   render json: contacts
-  # end
-
 end

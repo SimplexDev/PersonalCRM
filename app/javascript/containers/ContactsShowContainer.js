@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ContactShow from "../components/ContactShow"
-// import NotesShowContainer from "./NotesShowContainer"
-// import NoteFormContainer from "./NotesFormContainer"
+import NotesShowContainer from "./NotesShowContainer"
+import NoteFormContainer from "./NoteFormContainer"
 
 class ContactsShowContainer extends Component {
   constructor(props){
@@ -68,19 +68,6 @@ class ContactsShowContainer extends Component {
 
   }
 
-  // <div>
-  //   <NotesShowContainer
-  //     key={this.state.contact.id}
-  //     id={this.state.contact.id}
-  //     notes={this.state.notes}
-  //   />
-  // </div>
-  // <div>
-  //   <NoteFormContainer
-  //     addNewNote={this.addNewNote}
-  //     contact={this.props.params}
-  //   />
-  // </div>
 
 
   render() {
@@ -105,6 +92,19 @@ class ContactsShowContainer extends Component {
               follow_up={this.state.contact.follow_up}
             />
 
+            <div>
+              <NotesShowContainer
+                key={this.state.contact.id}
+                id={this.state.contact.id}
+                notes={this.state.notes}
+              />
+            </div>
+            <div>
+              <NoteFormContainer
+                addNewNote={this.addNewNote}
+                contact={this.props.params}
+              />
+            </div>
         </div>
       </div>
     )

@@ -15,7 +15,7 @@ RSpec.describe Api::V1::ContactsController, type: :controller do
       returned_json = JSON.parse(response.body)
     end
 
-    it "should return a list of all the spots ordered by date" do
+    it "should return a list of all the contacts ordered by last name" do
       get :index
       returned_json = JSON.parse(response.body)
 

@@ -7,18 +7,18 @@ class Api::V1::UsersController < ApiController
       current_user.role == 'member' || current_user.role == 'admin'
 
       user = User.find(current_user.id)
-      spots = user.spots
-      render json: spots
+      contacts = user.contacts
+      render json: contacts
 
       else
       redirect_to root_path
     end
   end
-  # spots for a given user
+  # contacts for a given user
   # def show
   #   user = User.find(params[:id])
-  #   spots = user.spots
-  #   render json: spots
+  #   contacts = user.contacts
+  #   render json: contacts
   # end
 
 end

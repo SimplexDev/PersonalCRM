@@ -25,18 +25,43 @@
       </div>
 
       <div class="field">
+        <%= f.label :email, :class => "label" %><br />
+        <%= f.text_field :email %>
+      </div>
+
+      <div class="field">
         <%= f.label :company, :class => "label" %><br />
         <%= f.text_field :company %>
       </div>
 
       <div class="field">
-        <%= f.label :past_company, class: "label" %><br />
-        <%= f.file_field :past_company %>
+        <%= f.label :past_company, :class => "label" %><br />
+        <%= f.text_field :past_company %>
       </div>
 
       <div class="field">
         <%= f.label :industry, class: "label" %><br />
         <%= f.text_field :industry %>
+      </div>
+      
+      <div class="field">
+        <%= f.label :phone_number, class: "label" %><br />
+        <%= f.text_field :phone_number %>
+      </div>
+
+      <div class="field">
+        <%= f.label :how_met, :class => "label" %><br />
+        <%= f.text_field :how_met %>
+      </div>
+
+      <div class="field">
+        <%= f.label :last_contacted, :class => "label" %><br />
+        <%= f.text_field :last_contacted %>
+      </div>
+
+      <div class="field">
+        <%= f.label :follow_up, :class => "label" %><br />
+        <%= f.text_field :follow_up %>
       </div>
 
       <div class="actions">

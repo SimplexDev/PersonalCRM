@@ -35,27 +35,26 @@ class ContactsIndexContainer extends Component {
   }
 
   createContactTile(array) {
-
-    let displayedContactsArray = array.map( (contact) =>{
-      return (
-        <ContactTile
-          key={contact.id}
-          id={contact.id}
-          first_name={contact.first_name}
-          last_name={contact.last_name}
-          full_name={contact.full_name}
-          email={contact.email}
-          company={contact.company}
-          past_company={contact.past_company}
-          industry={contact.industry}
-          how_met={contact.how_met}
-          last_contacted={contact.last_contacted}
-          follow_up={contact.follow_up}
-        />
-      )
-    })
-    return displayedContactsArray
-  }
+      let displayedContactsArray = array.map( (contact) =>{
+        return (
+          <ContactTile
+            key={contact.id}
+            id={contact.id}
+            first_name={contact.first_name}
+            last_name={contact.last_name}
+            full_name={contact.full_name}
+            email={contact.email}
+            company={contact.company}
+            past_company={contact.past_company}
+            industry={contact.industry}
+            how_met={contact.how_met}
+            last_contacted={contact.last_contacted}
+            follow_up={contact.follow_up}
+            />
+          )
+        })
+        return displayedContactsArray
+    }
 
   showMoreResults(event) {
     event.preventDefault()
@@ -86,14 +85,13 @@ class ContactsIndexContainer extends Component {
   }
 
   render() {
-
     let displayedContacts;
 
-    if (this.state.searchText === '') {
-      displayedContacts = this.createContactTile(this.state.contacts).slice(0, this.state.count)
-    } else {
-      displayedContacts = this.createContactTile(this.state.searchResults).slice(0, this.state.count)
-    }
+      if (this.state.searchText === '') {
+        displayedContacts = this.createContactTile(this.state.contacts).slice(0, this.state.count)
+      } else {
+        displayedContacts = this.createContactTile(this.state.searchResults).slice(0, this.state.count)
+      }
 
     let showMoreButton;
     if (this.state.contacts != []) {

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const DescriptionText = (props) => {
+const CommentText = (props) => {
   return (
     <div className="field">
       <label className="label">{props.label}</label>
         <textarea
-          first_name={props.first_name}
+          name={props.name}
           type='text'
           value={props.content}
           onChange={props.handlerFunction}
@@ -15,4 +15,4 @@ const DescriptionText = (props) => {
   );
 }
 
-export default DescriptionText;
+export default CommentText;

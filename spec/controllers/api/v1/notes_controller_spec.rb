@@ -9,7 +9,7 @@ require "rails_helper"
 #       it "first test" do
 #         test_user = User.create!(email: "test@gmail.com", password: "password", password_confirmation: "password")
 #         test_contact = Contact.create!(first_name: "Test name", last_name: "Test name", user: test_user)
-#         test_note = Note.create!(comment: "Test description", contact: test_contact, user: test_user)
+#         test_note = Note.create!(comment: "Test comment", contact: test_contact, user: test_user)
 #
 #         get :index
 #

@@ -6,14 +6,7 @@ const ContactShow = (props) => {
   // if (props.photo !== undefined) {
   //   url = props.photo.url || "http://via.placeholder.com/350x150"
   // }
-  //
-  // let artist;
-  //
-  // if (props.artist === "" || props.artist === null || props.artist === undefined){
-  //   artist = "Uncredited"
-  // } else {
-  //   artist = props.artist
-  // }
+
 
   return(
     <div className="row collapse">

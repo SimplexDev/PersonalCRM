@@ -4,11 +4,12 @@ import { Link } from 'react-router';
 const ContactTile = (props) => {
 
   let full_name = props.full_name
-  // let description = ''
-  // if (props.description.length > 137) {
-  //   description = `${props.description.substring(0, 137)}...`
+
+  // let comment = ''
+  // if (props.comment.length > 137) {
+  //   comment = `${props.comment.substring(0, 137)}...`
   // } else {
-  //   description = props.description
+  //   comment = props.comment
   // }
 
   return (

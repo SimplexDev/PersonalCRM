@@ -19,7 +19,7 @@ const ContactShow = (props) => {
     <div className="row collapse">
       <div className="columns small-12">
           <h2 className="page-header text-center">
-            {props.first_name}
+            {props.full_name}
           </h2>
       </div>
     <div className="row collapse">

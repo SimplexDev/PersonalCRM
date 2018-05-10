@@ -43,6 +43,7 @@ class ContactsIndexContainer extends Component {
           id={contact.id}
           first_name={contact.first_name}
           last_name={contact.last_name}
+          full_name={contact.full_name}
           email={contact.email}
           company={contact.company}
           past_company={contact.past_company}
@@ -68,7 +69,7 @@ class ContactsIndexContainer extends Component {
   updateSearchResults(searchText) {
     let tempResults = []
     this.state.contacts.forEach((contact) => {
-      if (contact.first_name.toLowerCase().includes(searchText.toLowerCase())) {
+      if (contact.full_name.toLowerCase().includes(searchText.toLowerCase())) {
         tempResults.push(contact)
       }
     })

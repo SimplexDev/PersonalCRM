@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 const ContactTile = (props) => {
 
-  let first_name = props.first_name.toUpperCase()
+  let full_name = props.full_name
   // let description = ''
   // if (props.description.length > 137) {
   //   description = `${props.description.substring(0, 137)}...`
@@ -12,10 +12,10 @@ const ContactTile = (props) => {
   // }
 
   return (
-    <div className="columns small-12 medium-6 large-4 end">
+    <div className="small-11 small-centered columns">
       <Link className="contact-tile" to={`/contacts/${props.id}`}>
-        <div className="content">
-          <h4 className="first_name"> {first_name}</h4>
+        <div className="content panel">
+          <h4 className="full_name"> {full_name}</h4>
         </div>
       </Link>
     </div>

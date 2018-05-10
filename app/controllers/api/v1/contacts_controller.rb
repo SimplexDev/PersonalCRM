@@ -2,7 +2,7 @@ class Api::V1::ContactsController < ApiController
   serialization_scope :current_user
 
   def index
-    render json: Contact.where( :user => current_user)
+    render json: Contact.where( :user => current_user).order('last_name')
   end
 
   def show

@@ -42,7 +42,7 @@ class ContactsShowContainer extends Component {
   }
 
   componentDidMount() {
-    let noteId = this.props.params.id
+    let contactId = this.props.params.id
 
     fetch(`/api/v1/contacts/${contactId}`, {
       credentials: 'same-origin'
@@ -63,7 +63,6 @@ class ContactsShowContainer extends Component {
         notes: contact.notes,
         user_notes: contact.user_notes
       })
-      
     })
     .catch(error => console.error(`Error in fetch: ${error.message}`))
 
@@ -83,6 +82,7 @@ class ContactsShowContainer extends Component {
   //   />
   // </div>
 
+
   render() {
 
     return(
@@ -94,6 +94,7 @@ class ContactsShowContainer extends Component {
               id={this.state.contact.id}
               first_name={this.state.contact.first_name}
               last_name={this.state.contact.last_name}
+              full_name={this.state.contact.full_name}
               email={this.state.contact.email}
               company={this.state.contact.company}
               past_company={this.state.contact.past_company}

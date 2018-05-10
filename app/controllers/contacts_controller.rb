@@ -13,6 +13,7 @@ class ContactsController < ApplicationController
   end
 
   def create
+    binding.pry
     @contact = Contact.new(contact_params)
     @contact.user = current_user
 
@@ -35,7 +36,7 @@ class ContactsController < ApplicationController
 
     if @contact.update(contact_params)
       flash[:success] = 'Contact updated successfully'
-      @contact = @contact.update(spot_params)
+      @contact = @contact.update(contact_params)
       redirect_to contact_path
     else
       @errors = @contact.errors.full_messages
@@ -53,8 +54,8 @@ class ContactsController < ApplicationController
   end
 
   protected
-  def user_params
-    params.require(:current_user).permit(:first_name, :last_name, :email, :company, :past_company, :industry, :phone_number, :how_met, :last_contacted, :follow_up)
+  def contact_params
+    params.require(:contact).permit(:first_name, :last_name, :email, :company, :past_company, :industry, :phone_number, :how_met, :last_contacted, :follow_up)
   end
 
   def authorize_user

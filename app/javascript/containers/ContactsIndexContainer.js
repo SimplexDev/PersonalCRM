@@ -107,7 +107,7 @@ class ContactsIndexContainer extends Component {
 
     return (
       <div>
-        <h4> Personal Contact Relationship Manager</h4>
+        <h1></h1>
           <div>
             <SearchApp
               updateSearchResults={this.updateSearchResults}

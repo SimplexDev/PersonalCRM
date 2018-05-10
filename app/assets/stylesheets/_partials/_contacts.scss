@@ -1,0 +1,32 @@
+@import 'variables';
+
+.contact-container {
+  .contact-tile {
+    display: block;
+    margin: 0 auto 25px auto;
+    height: 40px;
+    max-width: 800px;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    font-family: helvetica, 'sans serif';
+    color: $black;
+    .name {
+      font-family: $font-primary;
+      text-align: center;
+      color: $color-tertiary;
+    }
+    .content {
+      padding: 15px;
+    }
+    // .photo {
+    //   height: 180px;
+    //   background-size: cover;
+    //   background-repeat: no-repeat;
+    //   box-shadow: 0 0 90px rgba(0,0,0,0.3) inset;
+    // }
+    &:hover {
+      opacity: 100;
+      filter: alpha(opacity=100);
+    }
+  }
+}

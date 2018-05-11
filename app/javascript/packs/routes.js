@@ -3,6 +3,7 @@ import {Router, browserHistory, Route, IndexRoute } from 'react-router';
 import ContactsIndexContainer from '../containers/ContactsIndexContainer';
 import ContactsShowContainer from '../containers/ContactsShowContainer';
 import UsersActivityContainer from '../containers/UsersActivityContainer';
+import ContactEdit from '../components/ContactEdit';
 
 class Routes extends Component {
 
@@ -17,6 +18,7 @@ class Routes extends Component {
       <Router history={browserHistory}>
         <Route path='/' component={ContactsIndexContainer} />
         <Route path="contacts/:id" component={ContactsShowContainer} />
+        <Route path="contacts/:id/edit" component={ContactEdit} />
         <Route path="users/activity" component={UsersActivityContainer}/>
       </Router>
     );

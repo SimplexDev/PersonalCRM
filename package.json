@@ -11,6 +11,7 @@
     "faker": "^4.1.0",
     "prop-types": "~15.6.0",
     "react": "~15.4.2",
+    "react-collapsible": "^2.2.0",
     "react-dom": "~15.4.2",
     "react-router": "~3.2.0",
     "update": "^0.7.4"

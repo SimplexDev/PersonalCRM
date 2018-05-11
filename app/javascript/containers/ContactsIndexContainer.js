@@ -43,6 +43,7 @@ class ContactsIndexContainer extends Component {
             first_name={contact.first_name}
             last_name={contact.last_name}
             full_name={contact.full_name}
+            phone_number={contact.phone_number}
             email={contact.email}
             company={contact.company}
             past_company={contact.past_company}
@@ -50,6 +51,10 @@ class ContactsIndexContainer extends Component {
             how_met={contact.how_met}
             last_contacted={contact.last_contacted}
             follow_up={contact.follow_up}
+            location={contact.location}
+            birthday={contact.birthday}
+            family_notes={contact.family_notes}
+
             />
           )
         })

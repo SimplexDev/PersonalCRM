@@ -25,8 +25,18 @@
   </div>
 
   <div class="field">
+    <%= f.label :phone_number, class: "label" %><br />
+    <%= f.text_field :phone_number %>
+  </div>
+
+  <div class="field">
     <%= f.label :email, :class => "label" %><br />
     <%= f.text_field :email %>
+  </div>
+
+  <div class="field">
+    <%= f.label :location, :class => "label" %><br />
+    <%= f.text_field :location %>
   </div>
 
   <div class="field">
@@ -45,11 +55,6 @@
   </div>
 
   <div class="field">
-    <%= f.label :phone_number, class: "label" %><br />
-    <%= f.text_field :phone_number %>
-  </div>
-
-  <div class="field">
     <%= f.label :how_met, :class => "label" %><br />
     <%= f.text_field :how_met %>
   </div>
@@ -62,6 +67,16 @@
   <div class="field">
     <%= f.label :follow_up, :class => "label" %><br />
     <%= f.text_field :follow_up %>
+  </div>
+
+  <div class="field">
+    <%= f.label :birthday, :class => "label" %><br />
+    <%= f.text_field :birthday %>
+  </div>
+
+  <div class="field">
+    <%= f.label :family_details, :class => "label" %><br />
+    <%= f.text_field :family_details %>
   </div>
 
     <div class="actions">

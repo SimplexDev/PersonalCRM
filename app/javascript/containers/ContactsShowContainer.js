@@ -90,6 +90,9 @@ class ContactsShowContainer extends Component {
               how_met={this.state.contact.how_met}
               last_contacted={this.state.contact.last_contacted}
               follow_up={this.state.contact.follow_up}
+              birthday={this.state.contact.birthday}
+              family_details={this.state.contact.family_details}
+              location={this.state.contact.location}
             />
 
             <div>

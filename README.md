@@ -1,22 +1,22 @@
-# PersonalCRM
+# Quiksave
 
 [![Build Status](https://codeship.com/projects/9d518a50-34eb-0136-444e-4ebfccf535e1/status?branch=master)
-[![Code Climate](https://codeclimate.com/github/SimplexDev/PersonalCRM/badges/gpa.svg)](https://codeclimate.com/github/SimplexDev/PersonalCRM)
-[![Coverage Status](https://coveralls.io/repos/github/SimplexDev/PersonalCRM/badge.svg?branch=master)](https://coveralls.io/github/SimplexDev/PersonalCRM?branch=master)
+[![Code Climate](https://codeclimate.com/github/SimplexDev/Quiksave/badges/gpa.svg)](https://codeclimate.com/github/SimplexDev/Quiksave)
+[![Coverage Status](https://coveralls.io/repos/github/SimplexDev/Quiksave/badge.svg?branch=master)](https://coveralls.io/github/SimplexDev/Quiksave?branch=master)
 
 
 ## Description:
 
-Thank you for using PersonalCRM! The site was built with a Rails backend, React frontend, Foundation styling, and a focus on TDD with RSpec and Jasmine.
+Thank you for using Quiksave! The site was built with a Rails backend, React frontend, Foundation styling, and a focus on TDD with RSpec and Jasmine.
 
 ## Setup:
 
 To set up the project on your local machine (Mac):
-1. Clone repo locally ```git clone https://github.com/SimplexDev/PersonalCRM.git```
+1. Clone repo locally ```git clone https://github.com/SimplexDev/Quiksave.git```
 2. Run ```bundle exec install```
       then ```npm install```
 3. Run ```rake db:create```
-      then ```rake db:migrate && rake db:rollback && rake db:migrate```
+      then ```rake db:migrate```
             then ```rake db:seed```
 4. Run ```rails s``` in one console tab,
       open another console tab and concurrently run  ```npm start```

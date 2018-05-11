@@ -1,0 +1,80 @@
+<div class="row user-page">
+  <div class="columns medium-11">
+
+    <h1>Manage Users and Contacts</h1>
+
+    <ul class="tabs admin-tabs" data-tab>
+      <li class="tab-title active"><a href="#users">Users</a></li>
+      <li class="tab-title"><a href="#contacts">Contacts</a></li>
+    </ul>
+
+    <div class="tabs-content admin-tabs-content">
+
+      <div class="content active" id="users">
+        <h2 class="content-type-header">Users</h2>
+
+          <div class="row">
+            <div class="columns small-4">
+              <h4>Email</h4>
+            </div>
+
+            <div class="columns small-4">
+              <h4>Last Logged In</h4>
+            </div>
+
+            <div class="columns small-4 text-center">
+              <h4>Delete User</h4>
+            </div>
+          </div>
+
+          <% @users.each do |user| %>
+            <div class="row">
+              <div class="columns small-4">
+                <%= user.email %>
+              </div>
+              <div class="columns small-4">
+                <%= user.last_sign_in_at %>
+              </div>
+              <div class="columns small-4 text-center">
+                <%= link_to 'Delete', user, method: :delete, class: "button tiny alert user-#{user.id}" %>
+              </div>
+            </div>
+          <% end %>
+    </div>
+
+    <div class="content" id="contacts">
+
+      <h2 class="content-type-header">Contacts</h2>
+
+      <div class="row">
+        <div class="columns small-1 text-center">
+            <h4>ID</h4>
+          </div>
+
+          <div class="columns small-4">
+            <h4>Name</h4>
+          </div>
+
+          <div class="columns small-4 text-center">
+            <h4>Delete Contact</h4>
+          </div>
+        </div>
+
+        <% @contacts.each do |contact| %>
+          <div class="row">
+            <div class="columns small-1 text-center">
+              <%= contact.id %>
+            </div>
+            <div class="columns small-4">
+              <%= link_to "#{contact.full_name}", contact %>
+            </div>
+            <div class="columns small-4 text-center">
+              <%= link_to 'Delete', contact, method: :delete, class: "button tiny alert contact-#{contact.id}" %>
+            </div>
+          </div>
+        <% end %>
+
+   </div>
+  </div>
+  </div>
+</div>

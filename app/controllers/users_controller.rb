@@ -2,7 +2,7 @@ class UsersController < ApplicationController
   before_action :authorize_admin
 
   def index
-    @users = User.all? { |e|  }
+    @users = User.all { |e|  }
     @contacts = Contact.all.order(:id)
     @notes = Note.all.order(:id)
   end

@@ -113,7 +113,7 @@ class ContactsIndexContainer extends Component {
           </div>
           <div className="row text-center">
             <div className="column">
-              <h4 className="site-mission">Find your Contacts</h4>
+              <h4 className="site-mission">Build Your Relationships</h4>
           </div>
         </div>
         <div className="row contact-container">

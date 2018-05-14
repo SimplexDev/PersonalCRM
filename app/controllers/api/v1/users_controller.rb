@@ -11,7 +11,7 @@ class Api::V1::UsersController < ApiController
       render json: contacts
 
       else
-      redirect_to root_path
+      redirect_to contacts_path
     end
   end
 end

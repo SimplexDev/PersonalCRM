@@ -27,6 +27,19 @@ p {
   font-weight: 300;
   font-size: .9em;
 }
+.footer {
+    font-family: "poppins";
+    position: fixed;
+    font-size: .8em;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
 .top-bar-section ul li a {
   font-family: "poppins";
   font-weight: 300;

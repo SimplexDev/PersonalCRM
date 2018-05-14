@@ -6,7 +6,7 @@ Note.destroy_all
 user_1 = User.create!(first_name: "Evan", last_name: "Hagberg", :email => '1aol@aol.com', :password => 'topsecret', :password_confirmation => 'topsecret')
 user_2 = User.create!(:email => 'aol1@aol.com', :password => 'topsecret', :password_confirmation => 'topsecret')
 user_3 = User.create!(:email => 'aol2@aol.com', :password => 'topsecret', :password_confirmation => 'topsecret')
-admin = User.create!(:email => 'aol3@aol.com', :password => 'topsecret', :password_confirmation => 'topsecret', admin: true)
+admin = User.create!(:email => 'admin@aol.com', :password => 'topsecret', :password_confirmation => 'topsecret', admin: true)
 
 contacts = [
   {first_name: "Sally", last_name: "Samcake", company: "Buy N Large", industry: "Agricultural", phone_number: "937-333-1212", how_met: "Met Sally at a BBB luncheon in Dayton", user: user_1 },

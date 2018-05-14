@@ -1,8 +1,8 @@
 # Quiksave
 
 [![Build Status](https://codeship.com/projects/9d518a50-34eb-0136-444e-4ebfccf535e1/status?branch=master)
-[![Code Climate](https://codeclimate.com/github/SimplexDev/Quiksave/badges/gpa.svg)](https://codeclimate.com/github/SimplexDev/Quiksave)
-[![Coverage Status](https://coveralls.io/repos/github/SimplexDev/Quiksave/badge.svg?branch=master)](https://coveralls.io/github/SimplexDev/Quiksave?branch=master)
+[![Code Climate](https://codeclimate.com/github/SimplexDev/PersonalCRM/badges/gpa.svg)](https://codeclimate.com/github/SimplexDev/PersonalCRM)
+[![Coverage Status](https://coveralls.io/repos/github/SimplexDev/PersonalCRM/badge.svg?branch=master)](https://coveralls.io/github/SimplexDev/PersonalCRM?branch=master)
 
 
 ## Description:

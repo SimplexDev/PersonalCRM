@@ -28,7 +28,7 @@
   <nav class="top-bar" data-topbar role="navigation">
     <ul class="title-area">
       <li class="name">
-        <a href="/" class="header-logo"><span class="quikSave">quikSave</span></a>
+        <a href="/contacts" class="header-logo"><span class="quikSave">quikSave</span></a>
       </li>
 
       <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -69,7 +69,7 @@
 
       </section>
   </nav>
-  
+
   <% if !flash.empty? %>
     <div class="row">
       <div class="columns medium-8 medium-centered">
@@ -89,6 +89,8 @@
     <%= yield %>
     <%= javascript_include_tag 'application' %>
     <%= yield :extra_footer %>
-
+    <footer class="footer">
+      <a href="">Contact</a>  Privacy Policy
+    </footer>
   </body>
 </html>

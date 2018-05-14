@@ -10,5 +10,4 @@ class ApplicationController < ActionController::Base
       user_params.permit({ role: ['member','admin'] }, :email, :first_name, :last_name, :full_name, :github_link, :linkedin_link, :password, :password_confirmation, :avatar)
     end
   end
-
 end

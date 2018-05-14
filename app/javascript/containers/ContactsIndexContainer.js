@@ -111,7 +111,7 @@ class ContactsIndexContainer extends Component {
     return (
       <div>
         <h1></h1>
-          <div>
+          <div className="searchApp">
             <SearchApp
               updateSearchResults={this.updateSearchResults}
             />

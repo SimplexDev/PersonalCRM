@@ -16,6 +16,7 @@ class UsersController < ApplicationController
         current_user.contacts = contacts
       end
       user.notes.destroy_all
+      user.contacts.destroy_all
       user.destroy
     else
       flash[:notice] = "Admins can't delete own account"

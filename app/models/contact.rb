@@ -10,6 +10,6 @@ class Contact < ApplicationRecord
 private
 
   def set_full_name
-    self.full_name = "#{self.first_name} #{self.last_name}".strip
+    self.full_name = "#{self.last_name}, #{self.first_name} ".strip
   end
 end

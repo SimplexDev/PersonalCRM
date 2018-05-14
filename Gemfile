@@ -6,6 +6,7 @@ ruby '2.4.2'
 gem 'carrierwave', '~> 1.0'
 gem 'fog'
 gem 'fog-aws'
+gem 'omniauth-facebook'
 
 gem 'rails', '~> 5.2.0'
 # Use postgresql as the database for Active Record

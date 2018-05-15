@@ -20,7 +20,7 @@ class Api::V1::NotesController < ApplicationController
     note = Note.new(note_params)
 
     note.contact = Contact.find(params[:contact_id])
-    note.user= current_user
+    note.user = current_user
     note.save
 
     render json: note

@@ -8,9 +8,10 @@ class LandingPage extends Component {
 
   render() {
     return (
-      <div className="row contact-container">
-        <h1> Welcome to quikSave</h1>
-        <h2>Sign in above to begin compiling your personal contact relationship manager</h2>
+      <div className="small-11 small-centered columns">
+        <div className="content panel">
+          <h3>quikSave - Landing Page - Styling Pending</h3>
+        </div>
       </div>
     );
   }

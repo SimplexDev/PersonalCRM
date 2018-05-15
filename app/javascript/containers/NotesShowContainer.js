@@ -13,6 +13,7 @@ const NotesShowContainer = (props) => {
             id={note.id}
             comment={note.comment}
             user={note.user_id}
+            created_at={note.created_at}
           />
         </div>
       )

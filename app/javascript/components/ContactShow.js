@@ -17,7 +17,20 @@ const ContactShow = (props) => {
       </div>
     <div className="row collapse">
         <div className="columns medium-6">
-          <h1> This is the ContactShow.js Component </h1>
+            <div className="content panel">
+              <div className="contact-tile">
+                <h6>Email: {props.email}</h6>
+                <h6>Company: {props.company}</h6>
+                <h6>Past Company: {props.past_company}</h6>
+                <h6>Industry: {props.industry}</h6>
+                <h6>Phone: {props.phone}</h6>
+                <h6>Birthday: {props.birthday}</h6>
+                <h6>How did we meet: {props.how_met}</h6>
+                <h6>Current Location: {props.location}</h6>
+                <h6>Last Contacted: {props.last_contacted}</h6>
+                <h6>Follow Up: {props.follow_up}</h6>
+              </div>
+            </div>
           </div>
       </div>
     </div>

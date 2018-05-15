@@ -10,6 +10,7 @@ const NoteTile = (props) => {
               <div className="content panel">
                 <div className="contact-tile">
                   <blockquote>{props.comment}</blockquote>
+                  <h6>Note created at: {props.created_at}</h6>
                 </div>
               </div>
             </div>

@@ -65,10 +65,7 @@ class ContactsShowContainer extends Component {
       })
     })
     .catch(error => console.error(`Error in fetch: ${error.message}`))
-
   }
-
-
 
   render() {
 

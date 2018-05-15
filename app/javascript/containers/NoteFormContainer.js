@@ -68,7 +68,6 @@ class NoteFormContainer extends Component {
     return (
       <div>
         {errorDiv}
-        <h4>Add a new note!</h4>
         <div className="row">
           <div className="columns medium-6">
             <form className="callout" onSubmit={this.handleFormSubmit}>

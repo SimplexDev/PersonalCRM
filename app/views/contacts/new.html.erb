@@ -61,7 +61,7 @@
 
     <div class="field">
       <%= f.label :last_contacted, :class => "label" %><br />
-      <%= f.text_field :last_contacted %>
+      <%= f.text_field :last_contacted, wrapper: {class: 'datepicker'} %>
     </div>
 
     <div class="field">
@@ -78,7 +78,7 @@
       <%= f.label :family_details, :class => "label" %><br />
       <%= f.text_field :family_details %>
     </div>
-    
+
       <div class="actions">
         <%= f.submit "Add Contact", class: "button form-submit" %>
       </div>

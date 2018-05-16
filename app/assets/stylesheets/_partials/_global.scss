@@ -2,7 +2,7 @@
 
 body {
   background-color: $color-body-background;
-  background-image: url("https://s3.amazonaws.com/personalcrm/personalcrm_production/IMG_0987.JPG");
+  background-image: url("https://s3.amazonaws.com/personalcrm/personalcrm_production/ben-kolde-470570-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -18,13 +18,23 @@ input[type="text"] {
 
 h4 {
   font-family: "oswald";
-  color: white;
+  color: black;
   font-weight: 300;
 }
 h3 {
   font-family: "oswald";
   color: black;
   font-weight: 300;
+  text-align:center;
+}
+h2 {
+  font-family: "oswald";
+  color: white;
+  font-weight: 300;
+}
+
+h1 {
+  text-shadow: 1px 1px $white;
 }
 
 p {
@@ -54,7 +64,7 @@ p {
 .top-bar-section:hover ul:hover li:hover a:hover {
   font-family: "poppins";
   font-weight: 300;
-  background-color: #1D8A99 !important;
+  background-color: #B66C35 !important;
 }
 
 .top-bar {

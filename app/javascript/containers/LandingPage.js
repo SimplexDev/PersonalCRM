@@ -8,11 +8,15 @@ class LandingPage extends Component {
 
   render() {
     return (
+      <div>
+      <br/><br/><br/><br/><div>
       <div className="small-11 small-centered columns">
         <div className="content panel">
-          <h3>quikSave - Landing Page - Styling Pending</h3>
+          <h3>Sign up to start building your contact repository</h3>
         </div>
       </div>
+    </div>
+  </div>
     );
   }
 }

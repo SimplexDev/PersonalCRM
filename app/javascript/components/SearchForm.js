@@ -9,7 +9,7 @@ const SearchForm = props => {
     <input
       type='text'
       onChange={handleSearch}
-      placeholder="Search your contacts"
+      placeholder="Search by Name, Industy, or Location"
     />
   </span>;
 

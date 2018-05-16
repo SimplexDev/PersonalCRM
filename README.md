@@ -7,7 +7,13 @@
 
 ## Description:
 
-Thank you for using Quiksave! The site was built with a Rails backend, React frontend, & Foundation styling
+quikSave is a mobile-ready personal CRM system and memory repository to help build and maintain professional relationships. Users create new contacts and import existing contact records, create custom memory fields, export follow-up alerts to iCal, Google Cal, or Outlook calendars.
+
+Name and face recognition just isn't enough when it comes to maintaining professional relationships. I designed this app to build up my own "contact memory" so that I can better prepare myself when engaging with the myriad of people across my professional career - I hope you enjoy and make use of the resources I have scripted here.  
+
+Final feature in progress is a quiz-app section that engages users to challenge their knowledge of their own contacts!
+
+Please let me know if you have any feature requests or suggestions!
 
 ## Setup:
 

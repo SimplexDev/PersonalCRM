@@ -10,7 +10,7 @@ const ContactShow = (props) => {
           </h2>
       </div>
     <div className="row collapse">
-        <div className="columns medium-6">
+        <div className="columns medium-9">
             <div className="content panel">
               <div className="contact-tile">
                 <a href={`/contacts/${props.id}/edit`}>Edit Contact</a><p/>
@@ -24,6 +24,8 @@ const ContactShow = (props) => {
                 <h6>Current location: {props.location}</h6>
                 <h6>Last Contacted: {props.last_contacted}</h6>
                 <h6>Follow Up: {props.follow_up}</h6>
+                <h6>Create a Calendar alert:</h6>
+                <ul><button>iCal</button> <button>Google</button> <button>Outlook</button></ul>
               </div>
             </div>
           </div>

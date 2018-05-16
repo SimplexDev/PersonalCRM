@@ -8,7 +8,7 @@
         > a {
           background: #1b54be;
           // border-bottom: solid 4px $black;
-          color: $white;
+          color: black;
           font-weight: 700;
         }
 
@@ -17,13 +17,15 @@
   }
   .admin-tabs-content {
     padding: 10px;
-    background: rgba($white,.2);
+    background: rgba($white,.5);
     .content-type-header {
       border-bottom: solid 1px #b1a296;
       margin-bottom: 25px;
+      color: black;
     }
     .content {
       padding: 0;
+      color: black;
     }
   }
 

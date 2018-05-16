@@ -7,7 +7,7 @@
 
 ## Description:
 
-Thank you for using Quiksave! The site was built with a Rails backend, React frontend, Foundation styling, and a focus on TDD with RSpec and Jasmine.
+Thank you for using Quiksave! The site was built with a Rails backend, React frontend, & Foundation styling
 
 ## Setup:
 

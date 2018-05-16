@@ -59,7 +59,6 @@
           <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete, :class => "sign-out" %></li>
 
         <% else %>
-          <li class="active"><%= link_to 'Sign up with LinkedIn', new_user_registration_path %></li>
           <li class="active"><%= link_to 'Sign Up', new_user_registration_path %></li>
           <li><%= link_to 'Log in', new_user_session_path %></li>
 

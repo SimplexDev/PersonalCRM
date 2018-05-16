@@ -22,6 +22,5 @@ Rails.application.routes.draw do
   resources :users, only: [:index, :destroy]
   resources :notes, only: [:destroy, :edit, :update]
 
-  # get "map", to: 'maps#index'
   get "*path", to: 'contacts#index'
 end

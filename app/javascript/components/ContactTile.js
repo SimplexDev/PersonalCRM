@@ -9,7 +9,7 @@ const ContactTile = (props) => {
     <div className="small-11 small-centered columns">
       <Link className="contact-tile" to={`/contacts/${props.id}`}>
         <div className="content panel">
-          <h4 className="full_name"> {full_name}</h4>
+          <h4 className="full_name"> {full_name}</h4> 
         </div>
       </Link>
     </div>

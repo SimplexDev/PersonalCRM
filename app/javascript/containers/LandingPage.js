@@ -12,7 +12,7 @@ class LandingPage extends Component {
       <br/><br/><br/><br/><div>
       <div className="small-11 small-centered columns">
         <div className="content panel">
-          <h3>Sign up to start building your contact repository</h3>
+          <h3>Sign up to start building your relationship memory</h3>
         </div>
       </div>
     </div>

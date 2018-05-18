@@ -39,7 +39,7 @@
       <ul class="right">
 
         <% if user_signed_in? %>
-          <li><%= link_to 'Import Contacts', new_contact_path %></li>
+    
           <li><%= link_to '+ Add New Contact', new_contact_path %></li>
 
           <% if current_user.admin? %>

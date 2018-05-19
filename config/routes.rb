@@ -17,7 +17,7 @@ Rails.application.routes.draw do
       resources :notes, only: [:index, :show, :create, :edit]
     end
   end
-
+  
   resources :contacts, only: [:index, :show, :create, :new, :edit, :update, :destroy]
   resources :users, only: [:index, :destroy]
   resources :notes, only: [:destroy, :edit, :update]

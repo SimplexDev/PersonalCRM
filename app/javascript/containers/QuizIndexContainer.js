@@ -50,12 +50,7 @@ class QuizIndexContainer extends Component {
     }
 
   render() {
-    let displayedQuizArray
-    if (this.state.searchText === '') {
-      displayedQuizArray = this.createQuizTile(this.state.contacts)
-    } else {
-      displayedQuizArray = this.createQuizTile(this.state.contacts)
-    }
+    let displayedQuizArray = this.createQuizTile(this.state.contacts)
 
     return (
       <div>

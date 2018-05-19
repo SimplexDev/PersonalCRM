@@ -3,6 +3,7 @@ import {Router, browserHistory, Route, IndexRoute } from 'react-router';
 import ContactsIndexContainer from '../containers/ContactsIndexContainer';
 import ContactsShowContainer from '../containers/ContactsShowContainer';
 import UsersActivityContainer from '../containers/UsersActivityContainer';
+import QuizIndexContainer from '../containers/QuizIndexContainer';
 import LandingPage from '../containers/LandingPage';
 
 class Routes extends Component {
@@ -20,6 +21,7 @@ class Routes extends Component {
         <Route path='/contacts' component={ContactsIndexContainer} />
         <Route path="contacts/:id" component={ContactsShowContainer} />
         <Route path="users/activity" component={UsersActivityContainer}/>
+        <Route path="/quiz" component={QuizIndexContainer}/>
       </Router>
     );
   }

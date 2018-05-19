@@ -24,6 +24,7 @@ class QuizIndexContainer extends Component {
       .then(response => response.json())
       .then(body => {
         this.setState({ contacts: body });
+        debugger
       })
       .catch(error => console.error(`Error in fetch: ${error.message}`));
   }
@@ -49,7 +50,7 @@ class QuizIndexContainer extends Component {
     }
 
   render() {
-    let displayedContacts;
+    let displayedQuizArray
 
     return (
       <div>

@@ -39,7 +39,7 @@
       <ul class="right">
 
         <% if user_signed_in? %>
-    
+          <li><a href="/quiz">Quiz Me!</a></li>  
           <li><%= link_to '+ Add New Contact', new_contact_path %></li>
 
           <% if current_user.admin? %>

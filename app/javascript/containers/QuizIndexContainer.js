@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import QuizApp from '../components/QuizTile'
+import QuizTile from '../components/QuizTile'
 
 class QuizIndexContainer extends Component {
   constructor(props){
@@ -51,18 +51,20 @@ class QuizIndexContainer extends Component {
 
   render() {
     let displayedQuizArray
+    if (this.state.searchText === '') {
+      displayedQuizArray = this.createQuizTile(this.state.contacts)
+    } else {
+      displayedQuizArray = this.createQuizTile(this.state.contacts)
+    }
 
     return (
       <div>
         <h1></h1>
-          <div className="quizApp">
-            <QuizApp
-
-            />
+          <div className="quizTile">
           </div>
           <div className="row text-center">
         </div>
-        <div className="row contact-container">
+        <div className="row quizTile-container">
           {displayedQuizArray}
         </div>
       </div>

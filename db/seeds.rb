@@ -4,7 +4,7 @@ Contact.destroy_all
 Note.destroy_all
 
 user_1 = User.create!(first_name: "User", last_name: "One", :email => 'user1@testing.com', :password => 'pword456', :password_confirmation => 'pword456')
-user_2 = User.create!(:email => 'uuser2@testing.com', :password => 'pword456', :password_confirmation => 'pword456')
+user_2 = User.create!(:email => 'user2@testing.com', :password => 'pword456', :password_confirmation => 'pword456')
 user_3 = User.create!(:email => 'user3@testing.com', :password => 'pword456', :password_confirmation => 'pword456')
 admin = User.create!(:email => 'admin@testing.com', :password => 'pword456', :password_confirmation => 'pword456', admin: true)
 

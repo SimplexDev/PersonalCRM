@@ -30,7 +30,7 @@ For testing:
 1. Run ```rake db:test:prepare``` then ```rspec```
 
 For Heroku testing:
-log in with username: aol3@aol.com    pw: topsecret
+log in with username: admin@testing.com    pw: pword456
 
 ## Built With:
 
